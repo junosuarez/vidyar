@@ -1,0 +1,33 @@
+#vidyar-overlay{
+	position:fixed;
+	z-index:999999;
+	top: 0;
+	left: 20px;
+	display: none;
+}
+
+#vidyar-container{
+	background-color: #446;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#vidyar-tip{
+	margin-left: 10px;
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 17px solid #446;
+}
+
+#vidyar-overlay video{
+	width: 135px;
+}
+
+#vidyar-overlay canvas{
+	display: none;
+}
+#vidyar-overlay img{
+	/*max-width: 135px;*/
+}
